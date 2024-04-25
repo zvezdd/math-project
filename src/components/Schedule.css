@@ -1,0 +1,68 @@
+.event-container {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(40% - 10px); /* Расчет ширины контейнера с учетом отступов */
+    display: inline-block; /* Для обеспечения горизонтального расположения */
+    vertical-align: top; /* Выравнивание по верхнему краю */
+    overflow: hidden; /* Обрезаем текст, выходящий за границы контейнера */
+  }
+  
+  .event-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap; /* Запрещаем перенос текста */
+    overflow: hidden; /* Обрезаем текст, выходящий за пределы */
+    text-overflow: ellipsis; /* Добавляем многоточие для обрезанного текста */
+  }
+  
+  .event-time {
+    font-size: 14px;
+    color: #666;
+  }
+
+  
+.add-event-form {
+    margin-top: 20px;
+  }
+  
+  .add-event-form input {
+    width: calc(33.33% - 10px); /* Расчет ширины поля ввода с учетом отступов */
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .add-event-form button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .delete-button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .add-event-form button:hover {
+    background-color: #0056b3;
+  }
+  

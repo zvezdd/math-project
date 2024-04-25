@@ -1,0 +1,110 @@
+/* SearchBar.css */
+.search-container {
+  margin-bottom: -200px;
+    overflow-y: auto; /* или overflow-y: scroll; */
+  max-height: calc(100vh - 100px);
+}
+
+.control {
+  position:sticky ;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.loading {
+  font-style: italic;
+  color: #888;
+}
+
+
+
+.h2-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+/* 
+.control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
+
+.loading {
+  font-style: italic;
+  color: #999;
+}
+/* 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li b {
+  font-weight: bold;
+}
+
+ul li p {
+  margin: 5px 0;
+} */
+
+
+.user-list {
+  position: sticky;
+  top: 60px;
+}
+
+
+.box {
+  position: fixed;
+  margin-bottom: 20px;
+}
+
+.choose-day {
+  margin-top: 20px;
+}
+
+.choose-day h3 {
+  margin-bottom: 10px;
+}
+
+.choose-day button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.choose-day button:hover {
+  background-color: #0056b3;
+}
